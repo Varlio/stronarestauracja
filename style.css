@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+html, body {
+    scroll-behavior: smooth;
+}
+main{
+    width: 100%;
+    height: auto;
+    
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(tlo.png);
+    background-position: center;
+    background-size: cover;  
+    border: 3px;
+    border-color: #ffa200;
+    border-style: groove;
+ filter: drop-shadow(0px 0px 5px  #ffa200);
+}
+.logo{
+    margin: auto;
+    height: 200px;
+    display:block;
+    
+    filter: drop-shadow(5px 5px 15px rgb(0, 0, 0) );
+}
+.logo:hover{
+    animation-name: anim4;
+animation-duration:1s;
+animation-fill-mode: forwards;
+    filter: drop-shadow(0px 0px 5px  #ffa200);
+}
+header{
+    
+    margin: auto;
+    padding: 35px;
+    width: 85%;
+    height: 2px;
+ 
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+nav{
+  
+    text-align: center;
+    width:100%;
+    padding: 0px;
+    margin:0px;
+    display: inline-block;
+
+}
+nav li{
+    
+    padding: 0px;
+margin:0px;
+display: inline-block;
+
+}
+nav li a{
+    font-size:40px;
+    text-align: center;
+    color: #fff;
+    height: auto;
+    width: 200px;
+    position: relative;
+    top:10%;
+    margin: 4px;
+    padding: 5px 3px;
+    display: inline-block;
+    text-decoration:none;
+  
+    
+  }
+nav li:hover a{
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
+  
+    color: #fff;
+}
+nav li ul{
+    margin: 0;
+    padding: 0;
+   
+ }
+
+ nav li ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 100;
+   display:none;
+   background-color: black;
+   
+  } 
+  nav li:hover ul{
+    
+    display:block;
+   } 
+   nav li ul li{
+    display:block;
+ 
+   }
+   nav{
+    margin-top:50px;
+    position:relative;
+  }
+  nav a::after{
+    filter: drop-shadow(5px 5px 15px  #ffa200);
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffa200;
+    position: absolute;
+    left:0;
+    bottom:-5px;
+    transition: 0.5s;
+}
+nav a:hover::after{
+    width: 100%;
+}  
+
+  .wstep {
+   
+    margin: auto;
+
+    width: 85%;
+    text-align: left;
+    justify-content: space-between;
+    padding: 35px;
+    height: 80%;
+   
+  }
+  h1{
+    filter: drop-shadow(5px 5px 15px rgb(0, 0, 0) );
+    color:#ffa200;
+    font-size: 100px;
+  }
+
+ 
+
+p{
+    filter: drop-shadow(5px 5px 15px rgb(0, 0, 0) );
+    color:#fff;
+    font-size:30px;
+    line-height: 30px;
+}
+#tekst{
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+.slajdy{
+    
+    flex-wrap: wrap;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+.slajd1, .slajd2, .slajd3, .slajd4{
+    border: 3px;
+    border-color: #ffa200;
+    border-style: groove;
+    padding:20px;
+    color: #fff;
+    background-size:cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    float:left;
+    margin: 30px;
+    filter: drop-shadow(5px 5px 15px rgb(0, 0, 0) );
+    
+}
+.slajd1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(slajd1.png);   
+    
+}
+.slajd2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(slajd2.png);
+}
+.slajd3{
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(slajd3.png);
+}
+.slajd4{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(slajd4.png);
+}
+
+.slajd1:hover{
+animation-name: anim3;
+animation-duration:1s;
+animation-fill-mode: forwards;
+}
+.slajd1:hover{
+    animation-name: anim3;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    }
+.slajd2:hover{
+    animation-name: anim3;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    }
+.slajd3:hover{
+    animation-name: anim3;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    }
+.slajd4:hover{
+    animation-name: anim3;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    
+    }
+
+    @keyframes anim4
+    {
+      0% {height: 200px; }
+
+      100% {
+
+          height: 200px; 
+          width: auto;
+          filter: drop-shadow(0px 0px 5px  #ffa200);
+      }
+    }
+    @keyframes anim7
+    {
+      0% { }
+
+      100% {
+        font-size: 30px;
+          filter: drop-shadow(0px 0px 5px  #ffa200);
+      }
+    }
+        @keyframes anim7
+    {
+      0% { }
+
+      100% {
+        font-size: 30px;
+          filter: drop-shadow(0px 0px 5px  #ffa200);
+      }
+    }
+@keyframes anim3
+      {
+        0% {}
+
+        100% {
+
+            height: 350px; 
+            width: 350px; 
+            font-size:22px;
+            filter: drop-shadow(0px 0px 5px  #ffa200);
+        }
+      }
+      @keyframes anim5
+      {
+        0% { }
+
+        100% {
+           
+            filter: drop-shadow(0px 0px 7px  #ffa200);
+        }
+      }
+.reszt{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(reszta.png);
+    background-position: center;
+    background-size: cover;  
+    color:#fff;
+
+}
+.inf{
+
+ width: 80%;
+ margin: auto;
+
+    
+}
+#godz{
+    margin-top: 100px;
+    float: left;
+    width: 50%;
+
+    
+}
+#lokal{
+    
+    margin-top: 100px;
+    float: right;
+    width: 50%;
+
+    
+}
+#kont {
+    clear: both;
+}
+.mapa{
+    margin-top: 20px;
+    filter: drop-shadow(5px 5px 15px #000000);
+ 
+}
+.mapa:hover{
+    animation-name: anim5;
+animation-duration:1s;
+animation-fill-mode: forwards;
+}
+#godz p{
+    margin-bottom: 50px;
+}
+table{
+
+    margin: auto;
+    
+    font-size: 25px;
+    text-align: left;
+    filter: drop-shadow(5px 5px 15px #000000);
+	border-spacing: 10px;
+}
+
+table:hover{
+    animation-name: anim7;
+animation-duration:0.5s;
+animation-fill-mode: forwards;
+    filter: drop-shadow(0px 0px 5px  #ffa200);
+}
+th{ padding-right: 10px;
+    color:#ffa200;
+    filter: drop-shadow(0px 0px 5px  #0000);
+}
+h2{
+    color:#ffa200;
+    filter: drop-shadow(0px 0px 5px  #0000);
+    font-size: 35px;
+}
+footer{
+
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(tlo.png);
+    background-position: 0% 75%;
+    background-size: cover;  
+    border: 3px;
+    border-color: #ffa200;
+    border-style: groove;
+ filter: drop-shadow(0px 0px 5px  #ffa200);
+}
+.fb{
+    height: 70px;
+
+    margin: 30px;
+    float:left;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0) );
+}
+.fb:hover{
+    animation-name: anim7;
+animation-duration:0.5s;
+animation-fill-mode: forwards;
+    filter: drop-shadow(0px 0px 5px  #ffa200);
+}
+
+.tt{
+    height: 70px;
+    margin:  30px;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0) );
+}
+.tt:hover{
+    animation-name: anim7;
+animation-duration:0.5s;
+animation-fill-mode: forwards;
+    filter: drop-shadow(0px 0px 5px  #ffa200);
+}
+.inst{
+    height: 70px;
+    margin:  30px;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0) );
+}
+.inst:hover{
+    animation-name: anim7;
+animation-duration:0.5s;
+animation-fill-mode: forwards;
+    filter: drop-shadow(0px 0px 5px  #ffa200);
+}
+.socialmedia{
+    flex-wrap: wrap;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+
+    
+}
+@media screen and (max-width:1500px){
+    #godz{
+        width: 100%;
+    }
+    #lokal{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px){
+    .mapa{
+        width: 380px;
+        height: 300;
+    }
+    #godz{
+        width: 100%;
+    }
+    #lokal{
+        width: 100%;
+    }
+   .email{
+    font-size: 20px;
+   }
+   h1{
+    font-size: 70px;
+   }
+   p{
+    font-size: 25px;
+   }
+   #godz table:hover{
+    animation-name: anim10;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+   }
+   .slajd1, .slajd2, .slajd3, .slajd4{
+    width: 250px;
+    height: 250px;
+   }
+   @keyframes anim3
+      {
+        0% {}
+
+        100% {
+
+            height: 300px; 
+            width: 300px; 
+            font-size:22px;
+            filter: drop-shadow(0px 0px 5px  #ffa200);
+        }
+      }
+   @keyframes anim10
+   {
+     0% { }
+
+     100% {
+       font-size: 30px;
+         filter: drop-shadow(0px 0px 5px  #ffa200);
+     }
+   }
+   @keyframes anim7
+   {
+     0% { }
+
+     100% {
+       font-size: 24px;
+         filter: drop-shadow(0px 0px 5px  #ffa200);
+     }
+   }
+}
+
+/* .slajd{
+    background-image: url(slajd1.png);
+    background-position: center;
+    bacground-size: contain;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+} */
+
+
